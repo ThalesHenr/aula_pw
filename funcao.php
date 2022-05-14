@@ -71,4 +71,8 @@ function Soma(int $par01, int $par02):int
 
 $t = Soma (20, 100);
 
+echo"<br>";
+
+echo $t;
+
 ?>
