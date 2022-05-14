@@ -61,4 +61,14 @@ else{
     "Não pode votar";
 }
 
+echo "<br>";
+
+function Soma(int $par01, int $par02):int 
+{
+    $total = $par01 + $par02;
+    return $total; 
+}
+
+$t = Soma (20, 100);
+
 ?>
