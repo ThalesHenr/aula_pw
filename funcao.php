@@ -35,9 +35,30 @@ function Idade ($par01, $par02){
     echo "$idade";
 }
 
+function Vota ($par01, $par02){
+
+    $idade = $par01 - $par02; 
+    return $idade;
+}
+
 echo ("<br><br>");
 
 Idade($anoAtual, $anoNasc );
 
+//return 
+
+echo "<br><br>";
+
+$resp = Vota($anoAtual, $anoNasc);
+
+if($resp >= 18){
+
+    echo "Pode votar";
+
+}
+else{
+
+    "Não pode votar";
+}
 
 ?>
