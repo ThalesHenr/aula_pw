@@ -11,5 +11,5 @@ echo "Este texto está fora da função, ou seja script geral";
 
 //chamar uma função 
 echo "<br>";
-Msg()/
+Msg();
 ?>
